@@ -204,6 +204,22 @@ Follow these steps to run Smart Resume AI:
    streamlit run app.py
    ```
 
+## Admin Login Credentials
+
+### 🔹 New Login Credentials:
+   - **Username:**
+```python3
+admin@example.com
+```
+   - **Password:**
+```python3
+admin123
+```
+
+### 🔹 Admin Panel Access:
+   - The **Admin Section** will be visible **only after login**, right below the **Dashboard** section.
+
+
 ## Known Bug 🚨 Autofill Glitch in Resume Builder!  
 
 ### What's Happening? 🤔  
