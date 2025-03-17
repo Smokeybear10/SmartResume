@@ -12,6 +12,30 @@
 </div>
 
 
+
+## 🚀 **Smart AI Resume Analyzer – Version Comparison**  
+
+| Version | Status | Features | Try Now |
+|---------|--------|----------|---------|
+| **🔹 Version 1.0** <br> *Basic Resume Analyzer* 🏁 | ✅ **Live & Available** | 🔹 **Keyword Extraction** – Identifies key terms in resumes. <br> 🔹 **Structural Analysis** – Evaluates resume formatting & sections. <br> 🔹 **ATS Compatibility Check** – Basic compliance assessment. <br> 🔹 **Resume Insights** – Provides fundamental feedback. | [![Try Version 1.0](https://img.shields.io/badge/Try%20Now-ResumeMind-blue?style=for-the-badge)](https://resumind.streamlit.app/) |
+| **🔹 Version 2.0** <br> *AI-Powered Resume Analyzer* 🤖✨ | 🚧 **Testing Phase** <br/>(**Analysis Only through Google Gemini**)  | 🔹 **Google Gemini AI Integration** – Advanced AI-powered resume analysis. <br> 🔹 **Enhanced ATS Score** – AI-driven recruiter optimization. <br> 🔹 **Smart Keyword Optimization** – AI-powered gap analysis. <br> 🔹 **Role-Specific Recommendations** – AI insights tailored to job descriptions. <br> 🔹 **PDF Report Generation** – Download detailed AI assessments. <br> 🔹 **LinkedIn Job Scraper** – Fetch real-time job listings. | [![Try Version 2.0](https://img.shields.io/badge/Try%20Now-SkillMatch%20AI-purple?style=for-the-badge)](https://skillmatch-ai.streamlit.app/) |
+
+## 📢 **Give Your Feedback on Version 2.0!**  
+
+🚀 We’re actively improving **Smart AI Resume Analyzer – Version 2.0**, and your feedback is crucial!  
+
+💬 **Join the discussion and share your thoughts, issues, and suggestions here:**  
+🔗 **[🗨️ Feedback & Discussion – Smart AI Resume Analyzer (Version 2.0)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer/discussions/3)**  
+
+🛠️ **How can you help?**  
+✅ Try out **Version 2.0** [here](https://skillmatch-ai.streamlit.app/)  
+✅ Report any **bugs** or unexpected results  
+✅ Suggest **new features** or **improvements**  
+✅ Let us know how the **AI insights and ATS score** worked for you  
+
+💡 **Your feedback helps me build a better tool for job seekers worldwide!**  
+
+
 ## 📊 **GitHub Stats**
 
 <div align="center">
@@ -69,6 +93,8 @@
 
 - [![Documentation Badge](https://img.shields.io/badge/Documentation-Request-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:het8185@gmail.com?subject=Request%20Documentation%20for%20Smart%20AI%20Resume%20Analyzer&body=Hi%20Het%20Patel,%0D%0AI%20am%20interested%20in%20learning%20more%20about%20your%20project,%20Smart%20AI%20Resume%20Analyzer.%20Here%20are%20my%20details:%0D%0A%0D%0AName:%0D%0AOrganization/College:%0D%0APurpose%20of%20request:%0D%0A%0D%0AThanks!)  
 
+- [![AI Models Badge](https://img.shields.io/badge/AI%20Models-Documentation-purple?style=for-the-badge&logo=openai&logoColor=white)](AI_MODELS.md)  
+
 - [![Contribution Guide Badge](https://img.shields.io/badge/Contribution%20Guide-Read%20Here-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer/blob/main/.github/CONTRIBUTING.md)   
 
 - [![Support Badge](https://img.shields.io/badge/Support%20%26%20Feedback-Discussion-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer/discussions)  
@@ -94,7 +120,7 @@
    - 🌟 Industry-Specific Insights  
 
 **🎉 Why Use Smart Resume AI?**  
-Get real-time feedback, boost your resume’s impact, and maximize your chances of getting shortlisted—all with a sleek and intuitive interface.  
+Get real-time feedback, boost your resume's impact, and maximize your chances of getting shortlisted—all with a sleek and intuitive interface.  
 
 ## <img src="https://github.com/user-attachments/assets/e5ac1371-6ac4-48b6-b95c-5ef9afaf1353" width="30"> **Live Demo**  
 👨‍💻 Try it Now: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://resumind.streamlit.app/)  
@@ -161,7 +187,44 @@ Get real-time feedback, boost your resume’s impact, and maximize your chances 
    - Select from **4 unique templates** and customize sections like skills, achievements, or hobbies.  
 
 4. **Download & Apply**  
-   - Export your resume in **PDF** format, ready for submission.  
+   - Export your resume in **PDF** format, ready for submission.  This project has evolved with significant enhancements to its resume analysis capabilities:
+
+## 🏷 **Versioning & Updates**
+We continuously improve **Smart AI Resume Analyzer** to provide better resume analysis. Check out our latest features!
+
+#### 🔹 **Version 1.0 - Standard Resume Analyzer** 🏁
+
+The **foundation** of Smart AI Resume Analyzer, featuring a custom-built **standard resume analysis algorithm** developed by the project [creator](https://github.com/Hunterdii).  
+
+- **🚀 Basic Resume Analysis Algorithm**  **(Developed In-House)** 
+- **📊 Keyword Matching & Role-based Analysis**  
+- **📄 Standard ATS Score Calculation**  
+- **📌 Basic Resume Insights (No AI)**  
+- **📥 Manual Job Search**  
+
+[![Version 1.0](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge&logo=python&logoColor=white)](https://resumind.streamlit.app/)  
+
+
+#### 🔹 **Version 2.0 - AI-Powered Resume Analyzer** 🤖✨ (Testing Phase) 
+
+The **next-gen** version, introducing **AI-powered resume analysis** for deeper insights and personalized recommendations.  
+
+<!-- [![AI Powered](https://img.shields.io/badge/AI%20Powered-Yes-brightgreen.svg)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer)  
+[![PDF Reporting](https://img.shields.io/badge/PDF%20Reports-Enabled-blueviolet?style=for-the-badge)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer)  
+[![LinkedIn Scraper](https://img.shields.io/badge/LinkedIn%20Scraper-Integrated-lightgrey?style=for-the-badge)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer)   -->
+
+- **🧠 Integrated AI with Google Gemini Model** for in-depth resume analysis  
+- **📄 AI-Powered Resume Score with Detailed PDF Report**  
+- **📌 AI-based Keyword Optimization & Suggestions**  
+- **🔎 Advanced Job Search with LinkedIn Scraper** (Customizable Number of Jobs)  
+- **📊 AI-enhanced ATS & Role Matching Algorithm**  
+
+[![Version 2.0](https://img.shields.io/badge/Version-2.0-purple?style=for-the-badge&logo=openai&logoColor=white)](https://skillmatch-ai.streamlit.app/)
+
+ ---
+ 
+🔥 **Stay tuned for more updates as we continue trying to enhancing Smart AI Resume Analyzer!** 🚀
+
 
 
 ## <img src="https://github.com/user-attachments/assets/76906dbc-343d-4267-ace5-048d428fff42" width="30px"> **Setup in Minutes**  
@@ -170,21 +233,39 @@ Follow these steps to run Smart Resume AI:
 
 #### **Setup Instructions** 🛠️
 
+Follow the steps below to set up and run the **Smart AI Resume Analyzer** on your local machine.
+
 1. **Clone the repository:**
+
+Open a terminal and run:
 
    ```bash
    git clone https://github.com/Hunterdii/resume-analyzer-ai.git
    cd Smart-AI-Resume-Analyzer
    ```
 
-2. **Create a virtual environment:**
+2. **2. Create a Virtual Environment**
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+Set up a virtual environment to manage dependencies:
+
+```bash
+python -m venv venv
+```
+
+#### **Activate the Virtual Environment:**
+
+- **Windows:**
+  ```bash
+  venv\Scripts\activate
+  ```
+- **MacOS & Linux:**
+  ```bash
+  source venv/bin/activate
+  ```
 
 3. **Install dependencies:**
+
+Install the required Python packages:
 
    ```bash
    pip install -r requirements.txt
@@ -192,13 +273,26 @@ Follow these steps to run Smart Resume AI:
 
 4. **Download the spaCy model:**
 
+Ensure that the necessary NLP model is installed:
+
    ```bash
    python -m spacy download en_core_web_sm
    ```
    
 ``Congratulations 🥳😱 your set-up 👆 and installation is finished 🥳😱``
 
+<!--5. **Configure Environment Variables**
+
+Create a `.env` file inside the `utils/` directory and add your API keys:
+
+   ```
+   GOOGLE_API_KEY=your_google_gemini_api_key
+   ```
+   -->
+
 5. **Run the application:**
+
+Start the application using Streamlit:
 
    ```bash
    streamlit run app.py
@@ -219,6 +313,78 @@ admin123
 ### 🔹 Admin Panel Access:
    - The **Admin Section** will be visible **only after login**, right below the **Dashboard** section.
 
+<!--### Deploy to Streamlit Cloud
+
+1. Push your code to GitHub
+2. Sign up for [Streamlit Cloud](https://streamlit.io/cloud)
+3. Create a new app and connect it to your GitHub repository
+4. Add your API keys as secrets in the Streamlit Cloud dashboard
+5. Deploy the app
+
+### Deploy with Docker
+
+1. Build the Docker image:
+   ```bash
+   docker build -t smart-resume-analyzer .
+   ```
+
+2. Run the container:
+   ```bash
+   docker run -p 8501:8501 -e GOOGLE_API_KEY=your_key smart-resume-analyzer
+   ```
+
+## Project Structure
+
+```
+Smart-AI-Resume-Analyzer/
+├── app.py                  # Main application file
+├── config/                 # Configuration files
+│   ├── courses.py          # Course recommendations
+│   ├── database.py         # Database operations
+│   └── job_roles.py        # Job role definitions
+├── dashboard/              # Dashboard components
+├── feedback/               # Feedback system
+├── jobs/                   # Job search functionality
+├── static/                 # Static assets
+│   ├── css/                # CSS files
+│   └── images/             # Image files
+├── style/                  # Style definitions
+├── templates/              # Resume templates
+├── ui_components/          # UI components
+├── utils/                  # Utility functions
+│   ├── ai_resume_analyzer.py  # AI analysis logic
+│   ├── resume_analyzer.py     # Standard analysis logic
+│   └── resume_builder.py      # Resume builder logic
+├── .env                    # Environment variables (not in git)
+├── .gitignore              # Git ignore file
+├── Dockerfile              # Docker configuration
+├── LICENSE                 # License file
+├── README.md               # This file
+└── requirements.txt        # Python dependencies
+```
+
+## Troubleshooting
+
+### Common Issues
+
+1. **PDF Extraction Fails**: Ensure Tesseract OCR is properly installed and in your PATH
+2. **API Key Errors**: Verify your API keys in the `.env` file
+3. **Missing Dependencies**: Run `pip install -r requirements.txt` again
+
+### Getting Help
+
+If you encounter any issues, please [open an issue](https://github.com/yourusername/Smart-AI-Resume-Analyzer/issues) on GitHub.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+-->
 
 ## Known Bug 🚨 Autofill Glitch in Resume Builder!  
 
@@ -226,10 +392,10 @@ admin123
 If you're using the **Browser's (e.g., Chrome, Edge, etc.) Autofill** feature to quickly fill out your **Name**, **Email**, and **Phone** details in our **Smart AI Resume Analyzer**, you might encounter this error in generating Resume:  
 **"⚠️ Please enter your email address."**  
 
-Even though the email field appears to be filled, this is a small bug in the **Resume Builder Feature** where our system doesn’t always recognize inputs from autofill.
+Even though the email field appears to be filled, this is a small bug in the **Resume Builder Feature** where our system doesn't always recognize inputs from autofill.
 
 ### Quick Fix 🛠️  
-Don’t worry—it’s a simple fix!  
+Don't worry—it's a simple fix!  
 1. **Edit the email(or Any) field manually:**  
    - Remove one character or number.  
    - Type it back in.  
@@ -237,9 +403,9 @@ Don’t worry—it’s a simple fix!
 > _(“Voilà” means "there you have it!" or "problem solved!")_
 
 ### Why Does This Happen? 🌐  
-This is a **known issue with the resume builder feature**, where the autofill behavior of browsers (e.g., Chrome, Edge, etc.) doesn’t trigger the necessary validation for some input fields. By manually editing the email, the system recognizes it correctly.  
+This is a **known issue with the resume builder feature**, where the autofill behavior of browsers (e.g., Chrome, Edge, etc.) doesn't trigger the necessary validation for some input fields. By manually editing the email, the system recognizes it correctly.  
 
-We’re actively working on a permanent fix to ensure your experience is seamless. Thank you for your understanding and support! 🙏  
+We're actively working on a permanent fix to ensure your experience is seamless. Thank you for your understanding and support! 🙏  
 
 
 ## 🎯 **Why Choose Smart Resume AI?**  
@@ -373,6 +539,63 @@ Join the mission! Here's how:
 </div>  
 
 
+## 🎥 **Quick Glance – Version 2.0 (AI-Powered Resume Analyzer)**  
+
+<div align="center">  
+<table>  
+
+<tr>  
+<td align="center"><b>  
+   
+   [🔍 AI Resume Analysis (Custom Job Description)](https://skillmatch-ai.streamlit.app/)
+   </b></td>  
+<td align="center"><b>  
+   
+   [📊 AI Resume Score & Statistics](https://skillmatch-ai.streamlit.app/)
+</b></td>  
+</tr>  
+
+<tr>  
+<td><img src="https://github.com/user-attachments/assets/2105d65a-f01c-4af2-995c-fa29854a4fa1" alt="🔍 AI Resume Analysis with Custom Job Description" width="500px"></td>  
+<td><img src="https://github.com/user-attachments/assets/98f3d612-a167-4fbd-a1e2-a0a122d101a6" alt="📊 AI Resume Score & Statistics" width="500px"></td>  
+</tr>  
+
+<tr>  
+<td align="center"><b>  
+   
+   [📄 AI-Generated PDF Resume Report](https://skillmatch-ai.streamlit.app/)
+   </b></td>  
+<td align="center"><b>  
+   
+   [📊 AI Resume Analysis Insights](https://skillmatch-ai.streamlit.app/)
+   </b></td>  
+</tr>  
+
+<tr>  
+<td><img src="https://github.com/user-attachments/assets/e74aa01f-36e3-489a-8873-1807389007de" alt="📄 AI-Generated PDF Resume Report" width="500px"></td>  
+<td><img src="https://github.com/user-attachments/assets/9c5fbaf9-bb32-468c-b709-8e795d3f1796" alt="📊 AI Resume Analysis Insights" width="500px"></td>  
+</tr>  
+
+<tr>  
+<td align="center"><b>  
+   
+   [🔗 LinkedIn Job Scraper (Search Results)](https://skillmatch-ai.streamlit.app/)
+   </b></td>  
+<td align="center"><b>  
+   
+   [🏢 LinkedIn Scraper (Job Listings UI)](https://skillmatch-ai.streamlit.app/)
+   </b></td>  
+</tr>  
+
+<tr>  
+<td><img src="https://github.com/user-attachments/assets/1fedb318-03d9-4cd6-8b40-20714cb53b48" alt="🔗 LinkedIn Job Scraper (Search Results)" width="500px"></td>  
+<td><img src="https://github.com/user-attachments/assets/46081404-8cad-4d72-b921-e98103b9918e" alt="🏢 LinkedIn Scraper (Job Listings UI)" width="500px"></td>  
+</tr>  
+
+</table>  
+</div>  
+
+> Note: **Time Taking For scraping so have Patience**
 
 ## 🎨 **Interactive Resume Templates**  
 
