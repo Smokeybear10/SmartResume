@@ -1243,7 +1243,7 @@ class ResumeApp:
 
     def render_analyzer(self):
         """Render the resume analyzer page"""
-        current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+        current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
         apply_modern_styles()
 
         # Page Header
