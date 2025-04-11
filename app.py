@@ -1,4 +1,4 @@
-﻿﻿"""
+﻿"""
 Smart Resume AI - Main Application
 """
 import time
