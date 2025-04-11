@@ -1,4 +1,4 @@
-﻿"""
+﻿﻿"""
 Smart Resume AI - Main Application
 """
 import time
@@ -35,7 +35,7 @@ import plotly.express as px
 import pandas as pd
 import json
 import streamlit as st
-# import datetime
+import datetime
 
 # Set page config at the very beginning
 st.set_page_config(
@@ -1243,7 +1243,6 @@ class ResumeApp:
 
     def render_analyzer(self):
         """Render the resume analyzer page"""
-        current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
         apply_modern_styles()
 
         # Page Header
@@ -1934,7 +1933,10 @@ class ResumeApp:
                             import numpy as np
 
                             today = datetime.datetime.now()
-                            dates = [(today - datetime.timedelta(days=i)).strftime('%Y-%m-%d') for i in range(7)]
+                            dates = [
+    (today -
+    datetime.timedelta(
+        days=i)).strftime('%Y-%m-%d') for i in range(7)]
                             dates.reverse()
 
                             # Generate some random data that sums to
@@ -2440,11 +2442,7 @@ class ResumeApp:
                                     
                                     # Display the analysis in a nice format
                                     st.markdown("## Full Analysis Report")
-
-                                    # Get current date and time before the markdown
-                                    import datetime
-                                    current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
-
+                                    
                                     # Create a modern styled header for the report
                                     st.markdown(f"""
                                     <div style="background-color: #262730; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
@@ -2452,8 +2450,7 @@ class ResumeApp:
                                         <div style="display: flex; flex-wrap: wrap; gap: 20px;">
                                             <div style="flex: 1; min-width: 200px;">
                                                 <p style="color: #ffffff;"><strong>Job Role:</strong> {job_role if job_role else "Not specified"}</p>
-                                                <p style="color: #ffffff;"><strong>Analysis Date:</strong> {datetime.now().strftime("%Y-%m-%d %H:%M")}</p>
-                                            </div>
+                                                <p style="color: #ffffff;"><strong>Analysis Date:</strong> {current_date}</p>                                                                                                                                        </div>
                                             <div style="flex: 1; min-width: 200px;">
                                                 <p style="color: #ffffff;"><strong>AI Model:</strong> {model_used}</p>
                                                 <p style="color: #ffffff;"><strong>Overall Score:</strong> {resume_score}/100 - {"Excellent" if resume_score >= 80 else "Good" if resume_score >= 60 else "Needs Improvement"}</p>
