@@ -2442,7 +2442,11 @@ class ResumeApp:
                                     
                                     # Display the analysis in a nice format
                                     st.markdown("## Full Analysis Report")
-                                    
+
+                                    # Get current date and time before the markdown
+                                    import datetime
+                                    current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
+
                                     # Create a modern styled header for the report
                                     st.markdown(f"""
                                     <div style="background-color: #262730; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
