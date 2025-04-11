@@ -13,28 +13,6 @@
 
 
 
-## 🚀 **Smart AI Resume Analyzer – Version Comparison**  
-
-| Version | Status | Features | Try Now |
-|---------|--------|----------|---------|
-| **🔹 Version 1.0** <br> *Basic Resume Analyzer* 🏁 | ✅ **Live & Available** | 🔹 **Keyword Extraction** – Identifies key terms in resumes. <br> 🔹 **Structural Analysis** – Evaluates resume formatting & sections. <br> 🔹 **ATS Compatibility Check** – Basic compliance assessment. <br> 🔹 **Resume Insights** – Provides fundamental feedback. | [![Try Version 1.0](https://img.shields.io/badge/Try%20Now-ResumeMind-blue?style=for-the-badge)](https://resumind.streamlit.app/) |
-| **🔹 Version 2.0** <br> *AI-Powered Resume Analyzer* 🤖✨ | 🚧 **Testing Phase** <br/>(**Analysis Only through Google Gemini**)  | 🔹 **Google Gemini AI Integration** – Advanced AI-powered resume analysis. <br> 🔹 **Enhanced ATS Score** – AI-driven recruiter optimization. <br> 🔹 **Smart Keyword Optimization** – AI-powered gap analysis. <br> 🔹 **Role-Specific Recommendations** – AI insights tailored to job descriptions. <br> 🔹 **PDF Report Generation** – Download detailed AI assessments. <br> 🔹 **LinkedIn Job Scraper** – Fetch real-time job listings. | [![Try Version 2.0](https://img.shields.io/badge/Try%20Now-SkillMatch%20AI-purple?style=for-the-badge)](https://skillmatch-ai.streamlit.app/) |
-
-## 📢 **Give Your Feedback on Version 2.0!**  
-
-🚀 We’re actively improving **Smart AI Resume Analyzer – Version 2.0**, and your feedback is crucial!  
-
-💬 **Join the discussion and share your thoughts, issues, and suggestions here:**  
-🔗 **[🗨️ Feedback & Discussion – Smart AI Resume Analyzer (Version 2.0)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer/discussions/3)**  
-
-🛠️ **How can you help?**  
-✅ Try out **Version 2.0** [here](https://skillmatch-ai.streamlit.app/)  
-✅ Report any **bugs** or unexpected results  
-✅ Suggest **new features** or **improvements**  
-✅ Let us know how the **AI insights and ATS score** worked for you  
-
-💡 **Your feedback helps me build a better tool for job seekers worldwide!**  
-
 
 ## 📊 **GitHub Stats**
 
@@ -189,45 +167,6 @@ Get real-time feedback, boost your resume's impact, and maximize your chances of
 4. **Download & Apply**  
    - Export your resume in **PDF** format, ready for submission.  This project has evolved with significant enhancements to its resume analysis capabilities:
 
-## 🏷 **Versioning & Updates**
-We continuously improve **Smart AI Resume Analyzer** to provide better resume analysis. Check out our latest features!
-
-#### 🔹 **Version 1.0 - Standard Resume Analyzer** 🏁
-
-The **foundation** of Smart AI Resume Analyzer, featuring a custom-built **standard resume analysis algorithm** developed by the project [creator](https://github.com/Hunterdii).  
-
-- **🚀 Basic Resume Analysis Algorithm**  **(Developed In-House)** 
-- **📊 Keyword Matching & Role-based Analysis**  
-- **📄 Standard ATS Score Calculation**  
-- **📌 Basic Resume Insights (No AI)**  
-- **📥 Manual Job Search**  
-
-[![Version 1.0](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge&logo=python&logoColor=white)](https://resumind.streamlit.app/)  
-
-
-#### 🔹 **Version 2.0 - AI-Powered Resume Analyzer** 🤖✨ (Testing Phase) 
-
-The **next-gen** version, introducing **AI-powered resume analysis** for deeper insights and personalized recommendations.  
-
-<!-- [![AI Powered](https://img.shields.io/badge/AI%20Powered-Yes-brightgreen.svg)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer)  
-[![PDF Reporting](https://img.shields.io/badge/PDF%20Reports-Enabled-blueviolet?style=for-the-badge)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer)  
-[![LinkedIn Scraper](https://img.shields.io/badge/LinkedIn%20Scraper-Integrated-lightgrey?style=for-the-badge)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer)   -->
-
-- **🧠 Integrated AI with Google Gemini Model** for in-depth resume analysis  
-- **📄 AI-Powered Resume Score with Detailed PDF Report**  
-- **📌 AI-based Keyword Optimization & Suggestions**  
-- **🔎 Advanced Job Search with LinkedIn Scraper** (Customizable Number of Jobs)  
-- **📊 AI-enhanced ATS & Role Matching Algorithm**  
-
-[![Version 2.0](https://img.shields.io/badge/Version-2.0-purple?style=for-the-badge&logo=openai&logoColor=white)](https://skillmatch-ai.streamlit.app/)
-
- ---
- 
-🔥 **Stay tuned for more updates as we continue trying to enhancing Smart AI Resume Analyzer!** 🚀
-
-
-
-## <img src="https://github.com/user-attachments/assets/76906dbc-343d-4267-ace5-048d428fff42" width="30px"> **Setup in Minutes**  
 
 Follow these steps to run Smart Resume AI:  
 
@@ -244,7 +183,7 @@ Open a terminal and run:
    cd Smart-AI-Resume-Analyzer
    ```
 
-2. **2. Create a Virtual Environment**
+2. **Create a Virtual Environment(Optional)**
 
 Set up a virtual environment to manage dependencies:
 
@@ -281,22 +220,59 @@ Ensure that the necessary NLP model is installed:
    
 ``Congratulations 🥳😱 your set-up 👆 and installation is finished 🥳😱``
 
-<!--5. **Configure Environment Variables**
 
-Create a `.env` file inside the `utils/` directory and add your API keys:
+5. **Configure Environment Variables (Mandatory for AI-Analyzer Functionality):**
 
-   ```
-   GOOGLE_API_KEY=your_google_gemini_api_key
-   ```
-   -->
+To enable access to the **Gemini API** used by the AI Resume Analyzer, you need to set up environment variables securely.
 
-5. **Run the application:**
+#### ✅ Step-by-Step:
+
+1. **Create a `.env` file** inside the `utils/` directory.
+2. **Paste your Google Gemini API key** in the following format:
+
+#### 📄 Example content for `utils/.env`:
+```env
+GOOGLE_API_KEY=your_google_gemini_api_key
+```
+
+#### <img src="https://assets.codepen.io/1468070/Google+G+Icon.png" alt="Google LOGO" width="1.6%" /> Get your Gemini API Key:
+Visit  **[Google AI Studio – Gemini API Access](https://aistudio.google.com/app/apikey)** 👉 Grab and use your **own API key** — Since Mine One Have Usage Limits.
+
+
+6. **Run the application:**
 
 Start the application using Streamlit:
 
    ```bash
    streamlit run app.py
    ```
+
+<details>
+  <summary>📁 Folder Structure After Adding <code>.env</code></summary>
+
+> 🔐 **Important:**  
+> - **Do not commit your `.env` file** to version control (e.g., GitHub). It should be listed in `.gitignore`.
+> - If you're collaborating, you can provide a safe `.env.example` file with dummy data.
+
+  <div align="center">  
+    <table>
+      <tr>
+        <td align="center"><b>🗂️ Folder Structure Preview 1</b></td>
+        <td align="center"><b>🗂️ Folder Structure Preview 2</b></td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://github.com/user-attachments/assets/a6636ec0-f1e6-45ed-90f5-583ecbf7f67f" alt="Folder Structure Preview 1" height="350px" width="600px">
+        </td>
+        <td>
+          <img src="https://github.com/user-attachments/assets/10fea5d7-5b9f-491e-871f-75a9ab716ebb" alt="Folder Structure Preview 2" height="355px" width="600px">
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+
+</details>
 
 ## Admin Login Credentials
 
@@ -547,11 +523,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>  
    
-   [🔍 AI Resume Analysis (Custom Job Description)](https://skillmatch-ai.streamlit.app/)
+   [🔍 AI Resume Analysis (Custom Job Description)](https://resumind.streamlit.app/)
    </b></td>  
 <td align="center"><b>  
    
-   [📊 AI Resume Score & Statistics](https://skillmatch-ai.streamlit.app/)
+   [📊 AI Resume Score & Statistics](https://resumind.streamlit.app/)
 </b></td>  
 </tr>  
 
@@ -563,11 +539,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>  
    
-   [📄 AI-Generated PDF Resume Report](https://skillmatch-ai.streamlit.app/)
+   [📄 AI-Generated PDF Resume Report](https://resumind.streamlit.app/)
    </b></td>  
 <td align="center"><b>  
    
-   [📊 AI Resume Analysis Insights](https://skillmatch-ai.streamlit.app/)
+   [📊 AI Resume Analysis Insights](https://resumind.streamlit.app/)
    </b></td>  
 </tr>  
 
@@ -579,11 +555,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>  
    
-   [🔗 LinkedIn Job Scraper (Search Results)](https://skillmatch-ai.streamlit.app/)
+   [🔗 LinkedIn Job Scraper (Search Results)](https://resumind.streamlit.app/)
    </b></td>  
 <td align="center"><b>  
    
-   [🏢 LinkedIn Scraper (Job Listings UI)](https://skillmatch-ai.streamlit.app/)
+   [🏢 LinkedIn Scraper (Job Listings UI)](https://resumind.streamlit.app/)
    </b></td>  
 </tr>  
 

@@ -2924,7 +2924,10 @@ class ResumeApp:
                     st.session_state.page = cleaned_name
                     st.rerun()
 
-            
+            # Add some space before admin login
+            st.markdown("<br><br>", unsafe_allow_html=True)
+            st.markdown("---")
+
             # Admin Login/Logout section at bottom
             if st.session_state.get('is_admin', False):
                 st.success(f"Logged in as: {st.session_state.get('current_admin_email')}")
