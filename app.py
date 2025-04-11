@@ -1243,6 +1243,7 @@ class ResumeApp:
 
     def render_analyzer(self):
         """Render the resume analyzer page"""
+        current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
         apply_modern_styles()
 
         # Page Header
@@ -1933,10 +1934,7 @@ class ResumeApp:
                             import numpy as np
 
                             today = datetime.datetime.now()
-                            dates = [
-    (today -
-    datetime.timedelta(
-        days=i)).strftime('%Y-%m-%d') for i in range(7)]
+                            dates = [(today - datetime.timedelta(days=i)).strftime('%Y-%m-%d') for i in range(7)]
                             dates.reverse()
 
                             # Generate some random data that sums to
