@@ -1,4 +1,4 @@
-import PyPDF2
+import pypdf
 import docx
 import re
 from io import BytesIO
@@ -18,7 +18,7 @@ class ResumeParser:
                 # If it's already bytes
                 file_content = pdf_file
                 
-            pdf_reader = PyPDF2.PdfReader(BytesIO(file_content))
+            pdf_reader = pypdf.PdfReader(BytesIO(file_content))
             text = ""
             for page in pdf_reader.pages:
                 page_text = page.extract_text()
