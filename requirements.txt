@@ -15,7 +15,6 @@ sqlalchemy
 openpyxl
 requests
 spacy
-PyPDF2
 selenium
 numpy
 webdriver-manager
@@ -31,4 +30,5 @@ docx2txt
 python-pptx
 matplotlib
 seaborn
-pycryptodome
+pycryptodome>=3.19.0
+PyPDF2>=3.0.0
