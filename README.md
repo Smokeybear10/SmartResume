@@ -265,10 +265,6 @@ black .
 flake8 .
 ```
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🆘 Support
 
 ### Common Issues
@@ -290,9 +286,7 @@ python -c "from config.database import init_database; init_database()"
 
 ### Getting Help
 
-- 📧 Email: support@smartcv.com
-- 💬 Discord: [Join our community](https://discord.gg/smartcv)
-- 📖 Documentation: [Full docs](https://docs.smartcv.com)
+- 📧 Email: contact@thomasou
 - 🐛 Issues: [GitHub Issues](https://github.com/yourusername/smartcv/issues)
 
 ## 🙏 Acknowledgments
@@ -315,7 +309,5 @@ python -c "from config.database import init_database; init_database()"
 <div align="center">
 
 **Made with ❤️ for job seekers worldwide**
-
-[Website](https://smartcv.com) • [Documentation](https://docs.smartcv.com) • [Community](https://discord.gg/smartcv)
 
 </div>
